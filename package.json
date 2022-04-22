@@ -1,0 +1,33 @@
+{
+  "name": "url-shortener",
+  "version": "1.0.0",
+  "description": "Shorten Your Long URLs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaccanedo/url-shortener.git"
+  },
+  "keywords": [
+    "url",
+    "urlshort",
+    "url-shortener"
+  ],
+  "author": "ishandeveloper",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaccanedo/url-shortener.git/issues"
+  },
+  "homepage": "https://github.com/isaccanedo/url-shortener.git#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.22",
+    "nanoid": "^3.1.9",
+    "nodemon": "^2.0.4"
+  }
+}
